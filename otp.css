@@ -1,0 +1,34 @@
+body {
+    background-image: url("pexels-photo-255379.webp");
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+
+}
+
+*{
+    text-align: center;
+}
+
+H1 {
+    animation: zoomINOUT 2s infinite alternate;
+    font-size: 50px;
+}
+@keyframes zoomINOUT {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+
+}
+
+.btn{
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+#otpp{
+    margin-top: 40px;
+    font-size: 30px;
+}
